@@ -12,7 +12,7 @@ function Project() {
     const [repos, setRepos] = useState([]);
   
     useEffect(() => {
-      get("/users/na0495/repos").then(res => {
+      get("/users/yakir1992/repos").then(res => {
         setRepos(
           res?.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 16)
         );

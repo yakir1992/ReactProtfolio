@@ -119,10 +119,10 @@ export default function Work() {
           >
             <Box p={15} sx={{ background: `mode.${colorMode}.background`}} boxShadow="dark-lg" shadow="md" borderWidth="1px"  borderRadius="16">
               <Heading as="h3" size="lg">
-                Full stack developer
+                IT Administartor
               </Heading>
               <Heading as="h4" size="md" color="orange" pt={2}>
-                at PULL4YOU SERVICE S.A.R.L
+                at National Insurance Institute
               </Heading>
               <p>Development and deployment of a Web application that handles the delivery management of the collection of parcels.</p>
               <p>

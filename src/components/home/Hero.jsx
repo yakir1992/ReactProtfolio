@@ -61,7 +61,7 @@ export default function Home() {
                 stiffness: 260,
                 damping: 20
               }}>
-                <Avatar alt="Mrabet Saad" src={process.env.PUBLIC_URL + 'images/me.png'} className={classes.image} />
+                <Avatar alt="Yakir Ben Harosh" src={process.env.PUBLIC_URL + 'images/me.png'} className={classes.image} />
             </motion.div>
           </Box>
       </Grid>

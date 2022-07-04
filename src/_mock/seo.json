@@ -1,14 +1,14 @@
 
 {
-    "title": "Mrabet Saad - Portfolio",
-    "titleTemplate": "Mrabet Saad - Portfolio",
-    "siteName": "Mrabet Saad - Portfolio",
+    "title": "Yakir Ben Harosh",
+    "titleTemplate": "Portfolio",
+    "siteName": " Portfolio",
     "titleSeparator": " - ",
-    "description": "Mrabet Saad - Portfolio",
-    "image": "https://mrabet.com/static/media/MrabetSaad.b9f8f8e8.png",
-    "siteUrl": "https://mrabet.com",
+    "description": "Portfolio",
+    "image": "",
+    "siteUrl": "https://ybhp.netlify.app/",
     "siteLanguage": "en",
     "siteLocale": "en_US",
-    "twitterUsername": "@na0495",
-    "githubUsername": "na0495"
+    "twitterUsername": "@yakir1992",
+    "githubUsername": "yakir1992"
 }

@@ -41,7 +41,7 @@ function GitHub() {
         </Heading>
         <Box className={classes.calander}>
             <GitHubCalendar
-              username="na0495"
+              username="yakir1992"
               blockSize={18}
               // theme={{
               //   background: `mode.${colorMode}.background`,
@@ -60,12 +60,12 @@ function GitHub() {
           <Grid container>
             <Grid item xs={12} md={6}>
               <Box className={classes.details}>
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=na0495&" alt="na0495" />
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=yakir1992&" alt="yakir1992" />
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
               <Box className={classes.details}>
-                <img src="https://github-readme-stats.vercel.app/api?username=na0495&count_private=true&theme=react" alt="na0495" />
+                <img src="https://github-readme-stats.vercel.app/api?username=yakir1992&count_private=true&theme=react" alt="yakir1992" />
               </Box>
             </Grid>
           </Grid>

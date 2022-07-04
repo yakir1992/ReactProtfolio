@@ -7,9 +7,9 @@ import { Box, Badge , Center, Heading, useColorMode } from "@chakra-ui/react"
 
 export default function Path() {
     const { colorMode } = useColorMode();
-    const mainBachelor = ['C++ OOP programming',' Database Administration',' Relational Databases Management Systems (MySQL)', 'Networking (OSI network model)', 'Operating Systems (Linux) & bash scripitng', 'Web Development (HTML5/CSS3/JavaScript/PHP)', 'Client-Server Architecture', 'UML', 'English/French (TEC)']
-    const mainDeust = ['Maths (analysis & algebre)', 'computer science','data structures & algorithm', 'C programming language', 'Database & SQL', 'physique & chemistry']
-    var mainBach = mainBachelor.map((p, i) => {
+    const DevOps = ['Operating Systems (Linux) & bash scripitng', 'Version Control With Git', 'Build & Package Manager Tools (npm, gradle)', 'Cloud & IaaS', 'Artifact Repo Manager', 'Containers', 'Build Automation(CI/CD)', 'AWS Services', 'Container Orchesration', 'K8s on AWS', 'IaC with Terraform', 'Automation with Python', 'Configuration Management']
+    const johnBryce = ['HTML', 'CSS', 'JavaScript', 'PHP', 'OOP Programming', 'Relational Databases Management Systems (MySQL)', 'Database Administration', 'Client-Server Architecture']
+    var mainBach = DevOps.map((p, i) => {
       return (
         <Badge fontSize="0.8em" ml={1} borderWidth="1px" p={1} m={1}  borderRadius="10" key={i}>
           {p}
@@ -17,7 +17,7 @@ export default function Path() {
       );
     });
 
-    var mainDeu = mainDeust.map((p, i) => {
+    var mainDeu = johnBryce.map((p, i) => {
       return (
         <Badge fontSize="0.8em" ml={1} borderWidth="1px" p={1} m={1}  borderRadius="10" key={i}>
           {p}
@@ -45,13 +45,13 @@ export default function Path() {
           >
             <Box p={15}  sx={{ background: `mode.${colorMode}.background`}} boxShadow="dark-lg" shadow="md" borderWidth="1px"  borderRadius="16">
              <Heading as="h3" size="lg">
-                Bachelor of Science <br/> in computer engineering
+                DevOps Engineer
               </Heading>
               <Heading as="h4" size="md" color="orange" pt={2}>
-                at Faculty of science and techenologie of Tangier (FSTT)
+                at Tech World With Nana
               </Heading>
               <p>
-                Bachelor main programme : 
+                Bootcamp main programme : 
               <div style={{ textAlign: "left", marginBottom: "4px", padding: "4px" }}>
                 {mainBach}
               </div>
@@ -62,16 +62,16 @@ export default function Path() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'transparent'}}
             contentArrowStyle={{ borderRight: '7px solid' }}
-            date="Sep 2017 - Jun 2020"
+            date="May 2015 - April 2016"
             iconStyle={{ background: '#CAC0A5'}}
             icon={<Icon icon={certificate20Filled} />}
           >
             <Box p={15} sx={{ background: `mode.${colorMode}.background`}} boxShadow="dark-lg" shadow="md" borderWidth="1px"  borderRadius="16">
               <Heading as="h3" size="lg">
-                Deust MIP <br/>(Math, Informatique, Physics)
+                PHP Web Expert <br/>(Full Stack Developer)
               </Heading>
               <Heading as="h4" size="md" color="orange" pt={2}>
-                at Faculty of science and techenologie of Tangier (FSTT)
+                at JohnBryce (hi-tech college)
               </Heading>
               <p>
                 The main programme : 
