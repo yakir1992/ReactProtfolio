@@ -64,7 +64,7 @@ export default function Path() {
             contentArrowStyle={{ borderRight: '7px solid' }}
             date="May 2015 - April 2016"
             iconStyle={{ background: '#CAC0A5'}}
-            icon={<Icon icon={certificate20Filled} />}
+            icon={<Icon icon={educationIcon} />}
           >
             <Box p={15} sx={{ background: `mode.${colorMode}.background`}} boxShadow="dark-lg" shadow="md" borderWidth="1px"  borderRadius="16">
               <Heading as="h3" size="lg">

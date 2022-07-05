@@ -11,9 +11,9 @@ export default function Work() {
     // const [durantion, setDurantion] = useState(0);
     // const today = new Date()
     const mainDevStack = ['Python', 'Django', 'Django Rest Framework', 'RESTful API', 'Pytest', 'Python  3rd party libraires', 'Angular', 'TypeScript', 'Unit testing', 'Scrum', 'SQLite', 'PostegreSQL', 'POSTMAN', 'git', 'GitHub', 'azure', 'postgis', 'geojson']
-    const mainTecheno = ['Python', 'Django', 'Django Rest Framework', 'RESTful API', 'Python  3rd party libraires', 'JavaScript', 'React', 'Redux', 'Scrum', 'SQL', 'PostgreSQL', 'Git', 'Github', 'Contabo Server']
+    const mainIT = ['Active Directory', 'SCCM', 'ControlUp VMWare', 'Linux/Windows Servers', 'VMware Horizon', 'Azure', 'OFFICE365', 'DOCUMENTOM', 'BASH', 'POWERSHELL']
     const mainStack = ['Python', 'Django', 'Django Rest Framework', 'RESTful API', 'Python  3rd party libraires', 'Angular', 'TypeScript', 'Unit testing', 'Test Driven Devlopment', 'SQLite', 'PostegreSQL', 'POSTMAN', 'git', 'GitHub']
-    var mainTec = mainTecheno.map((p, i) => {
+    var mainTec = mainIT.map((p, i) => {
       return (
         <Badge fontSize="0.8em" ml={1} borderWidth="1px" p={1} m={1}  borderRadius="10" key={i}>
           {p}
@@ -61,30 +61,6 @@ export default function Work() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'transparent'}}
             contentArrowStyle={{ borderRight: '7px solid' }}
-            date="28 septembre 2021 - present"
-            iconStyle={{ background: '#CAC0A5'}}
-            icon={<Icon icon={devIcon} />}
-          >
-            <Box p={15} sx={{ background: `mode.${colorMode}.background`}} boxShadow="dark-lg" shadow="md" borderWidth="1px"  borderRadius="16">
-              <Heading as="h3" size="lg">
-                Back-end / DevOps engineering 
-              </Heading>
-              <Heading as="h4" size="md" color="orange" pt={2}>
-                at SOWIT
-              </Heading>
-              <p>Development, deployment & maintaining of different SOWIT application including Back-end & web application .</p>
-              <p>
-                The technologies i'm working with : 
-              <div style={{ textAlign: "left", marginBottom: "4px", padding: "4px" }}>
-                {mainDevSt}
-              </div>
-              </p>
-            </Box>
-          </VerticalTimelineElement>
-        <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'transparent'}}
-            contentArrowStyle={{ borderRight: '7px solid' }}
             // date={`27 july 2021 - present (${durantion})`}
             date={`27 july 2021 - 31 septembre 2021`}
             dateClassName="vertical-timeline-element-date--work"
@@ -113,7 +89,7 @@ export default function Work() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'transparent'}}
             contentArrowStyle={{ borderRight: '7px solid' }}
-            date="01 mars 2021 - 31 aug 2021 (6 months)"
+            date="May 2016 - Present"
             iconStyle={{ background: '#CAC0A5'}}
             icon={<Icon icon={devIcon} />}
           >
@@ -122,11 +98,11 @@ export default function Work() {
                 IT Administartor
               </Heading>
               <Heading as="h4" size="md" color="orange" pt={2}>
-                at National Insurance Institute
+                National Insurance Institute
               </Heading>
-              <p>Development and deployment of a Web application that handles the delivery management of the collection of parcels.</p>
+              <p>Responsible for the upkeep, configuration, and reliable operation of client computer systems, servers, and data security systems..</p>
               <p>
-                The technologies i'm working with : 
+                Technologies worked with: 
               <div style={{ textAlign: "left", marginBottom: "4px", padding: "4px" }}>
                 {mainTec}
               </div>
