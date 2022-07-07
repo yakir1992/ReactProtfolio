@@ -69,6 +69,8 @@ export default function Work() {
               </Heading>
               <p fontSize="xl">Responsible for initial design, set up and implementation of the company websites.
               </p>
+              <p fontSize="xl">Lead and participate in the design and deployment of client/server, multitier applications.
+              </p>
               <p fontSize="xl">Development of Web application from scratch & development of a responsive Front-end with UX practice with React
               </p>
               <p>
