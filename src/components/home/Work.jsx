@@ -10,9 +10,8 @@ export default function Work() {
     const { colorMode } = useColorMode();
     // const [durantion, setDurantion] = useState(0);
     // const today = new Date()
-    const mainDevStack = ['Python', 'Django', 'Django Rest Framework', 'RESTful API', 'Pytest', 'Python  3rd party libraires', 'Angular', 'TypeScript', 'Unit testing', 'Scrum', 'SQLite', 'PostegreSQL', 'POSTMAN', 'git', 'GitHub', 'azure', 'postgis', 'geojson']
     const mainIT = ['Active Directory', 'SCCM', 'ControlUp VMWare', 'Linux/Windows Servers', 'VMware Horizon', 'Azure', 'OFFICE365', 'DOCUMENTOM', 'BASH', 'POWERSHELL']
-    const mainStack = ['Python', 'Django', 'Django Rest Framework', 'RESTful API', 'Python  3rd party libraires', 'Angular', 'TypeScript', 'Unit testing', 'Test Driven Devlopment', 'SQLite', 'PostegreSQL', 'POSTMAN', 'git', 'GitHub']
+    const mainStack = ['HTML','CSS', 'JavaScript','TypeScript','Bootstrap','React','Angular','Redux','Python', 'PHP','Laravel','Git', 'GitHub']
     var mainTec = mainIT.map((p, i) => {
       return (
         <Badge fontSize="0.8em" ml={1} borderWidth="1px" p={1} m={1}  borderRadius="10" key={i}>
@@ -20,13 +19,7 @@ export default function Work() {
         </Badge>
       );
     });
-    var mainDevSt = mainDevStack.map((p, i) => {
-      return (
-        <Badge fontSize="0.8em" ml={1} borderWidth="1px" p={1} m={1}  borderRadius="10" key={i}>
-          {p}
-        </Badge>
-      );
-    });
+
 
     var mainTecStack = mainStack.map((p, i) => {
       return (
@@ -62,23 +55,24 @@ export default function Work() {
             contentStyle={{ background: 'transparent'}}
             contentArrowStyle={{ borderRight: '7px solid' }}
             // date={`27 july 2021 - present (${durantion})`}
-            date={`27 july 2021 - 31 septembre 2021`}
+            date={`July 2016 - Present`}
             dateClassName="vertical-timeline-element-date--work"
             iconStyle={{ background: '#CAC0A5'}}
-            icon={<Icon icon={educationIcon} />}
+            icon={<Icon icon={devIcon} />}
           >
             <Box p={15}  sx={{ background: `mode.${colorMode}.background`}} boxShadow="dark-lg" shadow="md" borderWidth="1px"  borderRadius="16">
               <Heading as="h3" size="lg">
-                Full stack developer
+                Full Stack Developer
               </Heading>
               <Heading as="h4" size="md" color="orange" pt={2}>
-                at Atkana IT consulting
+                BHDigital Software 
               </Heading>
-              <p fontSize="xl">Development of web application from scratch & scaling it along with Test Driven development 
-              methodology, development of a responsive Front-end with UX practice with Angular & Backend service with Django.
+              <p fontSize="xl">Responsible for initial design, set up and implementation of the company websites.
+              </p>
+              <p fontSize="xl">Development of Web application from scratch & development of a responsive Front-end with UX practice with React
               </p>
               <p>
-              The technologies i'm working with on that project are: 
+              The technologies I'm working with: 
               <div style={{ textAlign: "left", marginBottom: "4px", padding: "4px" }}>
                 {mainTecStack}
               </div>

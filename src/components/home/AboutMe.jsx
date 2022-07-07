@@ -22,7 +22,7 @@ export default function AboutMe() {
                   zone and knowledge set, as continuing to learn new languages and development techniques.</h2>
                   <h2 className="text"><span className='icons'>&#128200;</span>  I'm fluent in many programming languages, especially in JavaScript.</h2>
                   <h2 className="text"><span className='icons'>&#128196;</span>  My field of Interest are building new  Web Technologies and Products and also in areas relatedMobile application and Natural Language Processing.</h2>
-                  <h2 className="text"><span className='icons'>&#127756;</span>  whenever possible, i also apply my passion for developing products with multiple different frameworks
+                  <h2 className="text"><span className='icons'>&#127756;</span>  whenever possible, I also apply my passion for developing products with multiple different frameworks
                   and technologies, like Django, React, Angular, Node.js ...</h2>
                 </div>
               </Fade>
