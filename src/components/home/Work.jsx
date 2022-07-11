@@ -74,7 +74,7 @@ export default function Work() {
               <p fontSize="xl">Development of Web application from scratch & development of a responsive Front-end with UX practice with React
               </p>
               <p>
-              The technologies I'm working with: 
+              The technologies I'm working with :
               <div style={{ textAlign: "left", marginBottom: "4px", padding: "4px" }}>
                 {mainTecStack}
               </div>
