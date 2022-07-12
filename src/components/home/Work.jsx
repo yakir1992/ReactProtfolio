@@ -28,6 +28,7 @@ export default function Work() {
         </Badge>
       );
     });
+    // 1
     // function monthDiff(d1, d2) {
     //   var months;
     //   months = (d2.getFullYear() - d1.getFullYear()) * 12;
