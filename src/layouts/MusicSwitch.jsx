@@ -6,7 +6,7 @@ import {
 } from '@chakra-ui/react';
 // icons
 import { FaPlay, FaPause } from 'react-icons/fa';
-// sound effects
+// sound effectss
 import useSound from "use-sound";
 import chill from "../assets/audios/chill.mp3";
 
