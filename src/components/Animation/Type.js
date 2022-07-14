@@ -11,6 +11,7 @@ function Type() {
           "Software Developer",
           "Full Stack Developer",
           "Open Source Contributor",
+          "Husband & Father",
         ],
         autoStart: true,
         loop: true,
