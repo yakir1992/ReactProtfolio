@@ -8,7 +8,8 @@ import customTheme from './theme/theme';
 import Seo from './components/Seo';
 import './index.css'
 
-// eslint-disable-next-line
+// eslint-disable-next-line.
+
 const newTheme = {
   ...customTheme,
 };
