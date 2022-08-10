@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-// hooks
+// hooks /
 import ScrollToTop from './hooks/useScrollTop';
 // layouts
 import Navbar from './layouts/Navbar';
